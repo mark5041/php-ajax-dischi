@@ -73,6 +73,8 @@
 
     ];
 
+    $filter = [];
+
     $genre = [];
 
     foreach($music as $element):
