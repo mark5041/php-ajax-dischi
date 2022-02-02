@@ -1,3 +1,5 @@
+<?php include __DIR__ . '/server/db.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,10 +18,27 @@
 
     <main id="app">
 
+        <div class="select-section">
+            <select name="" id="">
+                <option value="all" selected>all</option>
+                <?php
+
+                    foreach($genre as $element):
+                    
+                        echo '<option value="'.$element.'">'.$element.'</option>';
+
+                    endforeach
+
+                 ?>
+            </select>
+        </div>
+
         <div class="my-container">
+
+
             <div class="row">
                 
-                
+            <?php include __DIR__ . '/components/card.php' ?>
 
             </div>
         </div>
