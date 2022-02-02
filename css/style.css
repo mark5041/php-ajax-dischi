@@ -1,0 +1,31 @@
+nav {
+    height: 3.8em;
+    background-color: #2e3a46;
+}
+
+nav > img {
+    height: 2.5em;
+    margin-left: 0.7em;
+}
+
+main {
+    background-color: #1e2d3b;
+    height: calc(100vh - 3.8em * 2);
+    width: 100%;
+}
+
+main > .my-container{
+    margin: 0 15%;
+}
+
+main > .my-container > .row {
+    position: relative;
+    top: 3.5em;
+    height: 100%;
+    column-gap: 2em;
+    row-gap: 1em;
+}
+
+footer {
+    height: 3.8em;
+}
